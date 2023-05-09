@@ -1,4 +1,0 @@
-﻿  PROCESS_HOLLOWING.cpp
-C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING\PROCESS_HOLLOWING\PROCESS_HOLLOWING.cpp(112,3): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD'
-C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING\PROCESS_HOLLOWING\PROCESS_HOLLOWING.cpp(118,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD'
-  PROCESS_HOLLOWING.vcxproj -> C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING\Debug\PROCESS_HOLLOWING.exe
