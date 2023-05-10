@@ -1,0 +1,9 @@
+﻿  pe.cpp
+  Process_Hollowing.cpp
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(112,3): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(118,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD'
+  stdafx.cpp
+  stdafx.h
+  Generating Code...
+Debug\stdafx.obj : warning LNK4042: object specified more than once; extras ignored
+  Process_Hollowing.vcxproj -> C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Debug\Process_Hollowing.exe

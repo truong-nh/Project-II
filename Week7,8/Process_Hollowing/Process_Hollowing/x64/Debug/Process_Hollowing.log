@@ -1,0 +1,71 @@
+﻿  pe.cpp
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(157,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(157,8): error C2065: 'mov': undeclared identifier
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(157,12): error C2146: syntax error: missing ';' before identifier 'eax'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(157,12): error C2065: 'eax': undeclared identifier
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(157,17): error C2065: 'dword': undeclared identifier
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(157,23): error C2146: syntax error: missing ';' before identifier 'ptr'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(157,23): error C2065: 'ptr': undeclared identifier
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(157,27): error C2146: syntax error: missing ';' before identifier 'fs'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(163,34): warning C4312: 'type cast': conversion from 'DWORD' to 'PIMAGE_DOS_HEADER' of greater size
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(163,46): warning C4312: 'type cast': conversion from 'unsigned long' to 'PIMAGE_NT_HEADERS32' of greater size
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(168,63): warning C4312: 'type cast': conversion from 'DWORD' to 'PIMAGE_DOS_HEADER' of greater size
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(174,60): warning C4312: 'type cast': conversion from 'unsigned long' to 'PIMAGE_NT_HEADERS32' of greater size
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(174,37): error C2440: '=': cannot convert from 'PIMAGE_NT_HEADERS32' to 'PIMAGE_NT_HEADERS64'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(174,37): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(189,58): warning C4312: 'type cast': conversion from 'unsigned long' to 'char *' of greater size
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(201,34): warning C4312: 'type cast': conversion from 'unsigned long' to 'PIMAGE_IMPORT_DESCRIPTOR' of greater size
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(207,86): warning C4312: 'type cast': conversion from 'unsigned long' to 'PIMAGE_THUNK_DATA32' of greater size
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(213,78): warning C4312: 'type cast': conversion from 'unsigned long' to 'PIMAGE_THUNK_DATA32' of greater size
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(219,80): warning C4312: 'type cast': conversion from 'unsigned long' to 'PIMAGE_IMPORT_BY_NAME' of greater size
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.cpp(51,24): warning C4312: 'type cast': conversion from 'DWORD' to 'LPCVOID' of greater size
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.cpp(84,34): error C2440: '=': cannot convert from 'PIMAGE_NT_HEADERS32' to 'PIMAGE_NT_HEADERS64'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.cpp(84,34): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  Process_Hollowing.cpp
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(157,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(157,8): error C2065: 'mov': undeclared identifier
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(157,12): error C2146: syntax error: missing ';' before identifier 'eax'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(157,12): error C2065: 'eax': undeclared identifier
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(157,17): error C2065: 'dword': undeclared identifier
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(157,23): error C2146: syntax error: missing ';' before identifier 'ptr'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(157,23): error C2065: 'ptr': undeclared identifier
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(157,27): error C2146: syntax error: missing ';' before identifier 'fs'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(163,34): warning C4312: 'type cast': conversion from 'DWORD' to 'PIMAGE_DOS_HEADER' of greater size
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(163,46): warning C4312: 'type cast': conversion from 'unsigned long' to 'PIMAGE_NT_HEADERS32' of greater size
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(168,63): warning C4312: 'type cast': conversion from 'DWORD' to 'PIMAGE_DOS_HEADER' of greater size
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(174,60): warning C4312: 'type cast': conversion from 'unsigned long' to 'PIMAGE_NT_HEADERS32' of greater size
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(174,37): error C2440: '=': cannot convert from 'PIMAGE_NT_HEADERS32' to 'PIMAGE_NT_HEADERS64'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(174,37): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(189,58): warning C4312: 'type cast': conversion from 'unsigned long' to 'char *' of greater size
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(201,34): warning C4312: 'type cast': conversion from 'unsigned long' to 'PIMAGE_IMPORT_DESCRIPTOR' of greater size
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(207,86): warning C4312: 'type cast': conversion from 'unsigned long' to 'PIMAGE_THUNK_DATA32' of greater size
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(213,78): warning C4312: 'type cast': conversion from 'unsigned long' to 'PIMAGE_THUNK_DATA32' of greater size
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\pe.h(219,80): warning C4312: 'type cast': conversion from 'unsigned long' to 'PIMAGE_IMPORT_BY_NAME' of greater size
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(65,60): warning C4311: 'type cast': pointer truncation from 'PBYTE' to 'DWORD'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(65,60): warning C4302: 'type cast': truncation from 'PBYTE' to 'DWORD'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(67,66): warning C4311: 'type cast': pointer truncation from 'PBYTE' to 'DWORD'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(67,66): warning C4302: 'type cast': truncation from 'PBYTE' to 'DWORD'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(107,48): warning C4311: 'type cast': pointer truncation from 'PVOID' to 'DWORD'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(107,48): warning C4302: 'type cast': truncation from 'PVOID' to 'DWORD'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(112,3): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(112,3): warning C4313: 'printf': '%p' in format string conflicts with argument 1 of type 'DWORD'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(118,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(118,9): warning C4313: 'printf': '%p' in format string conflicts with argument 1 of type 'DWORD'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(120,74): warning C4311: 'type cast': pointer truncation from 'PVOID' to 'DWORD'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(120,74): warning C4302: 'type cast': truncation from 'PVOID' to 'DWORD'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(144,42): warning C4311: 'type cast': pointer truncation from 'PVOID' to 'DWORD'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(144,42): warning C4302: 'type cast': truncation from 'PVOID' to 'DWORD'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(144,85): warning C4312: 'type cast': conversion from 'unsigned long' to 'PVOID' of greater size
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(204,45): warning C4311: 'type cast': pointer truncation from 'PVOID' to 'DWORD'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(204,45): warning C4302: 'type cast': truncation from 'PVOID' to 'DWORD'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(204,62): warning C4312: 'type cast': conversion from 'unsigned long' to 'PVOID' of greater size
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(217,45): warning C4311: 'type cast': pointer truncation from 'PVOID' to 'DWORD'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(217,45): warning C4302: 'type cast': truncation from 'PVOID' to 'DWORD'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(217,62): warning C4312: 'type cast': conversion from 'unsigned long' to 'PVOID' of greater size
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(237,53): warning C4311: 'type cast': pointer truncation from 'PVOID' to 'DWORD'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(237,53): warning C4302: 'type cast': truncation from 'PVOID' to 'DWORD'
+C:\Users\Admin\Desktop\Project2\PROCESS_HOLLOWING_final\Process_Hollowing\Process_Hollowing\Process_Hollowing.cpp(268,12): error C2039: 'Eax': is not a member of '_CONTEXT'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(4203,54): message : see declaration of '_CONTEXT'
+  stdafx.cpp
+  stdafx.h
+  Generating Code...
